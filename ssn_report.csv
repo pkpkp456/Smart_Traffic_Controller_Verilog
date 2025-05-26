@@ -1,0 +1,46 @@
+# Simultaneously Switching Noise (SSN) Report
+# Version: 1.0
+# Created on: Mon May 26 09:44:55 2025
+# Result Name: ssn_2
+# Project Name: Smart_Traffic_Controller
+# Project Family: Artix-7
+# Part: xc7a100tcsg324
+# Temperature Grade: extended
+# SSN Data Version: Production
+# Package Version: FINAL 2012-07-17
+# Package Pin Delay Version: VERS. 2.0 2012-07-17
+
+IO Bank,VCCO,Signal Name,Pin Number,IO Standard,Drive (mA),Slew Rate,OFFCHIP_TERM,Remaining Margin (%),Result, Notes
+34,3.3,GA,P4,LVCMOS33,12,SLOW,FP_VTT_50,56.6,PASS,
+34,3.3,GB,P3,LVCMOS33,12,SLOW,FP_VTT_50,66.5,PASS,
+34,3.3,GC,T1,LVCMOS33,12,SLOW,FP_VTT_50,57.3,PASS,
+34,3.3,GD,R3,LVCMOS33,12,SLOW,FP_VTT_50,54.7,PASS,
+34,3.3,RA,V4,LVCMOS33,12,SLOW,FP_VTT_50,60.1,PASS,
+34,3.3,RB,R1,LVCMOS33,12,SLOW,FP_VTT_50,55.3,PASS,
+34,3.3,RC,R2,LVCMOS33,12,SLOW,FP_VTT_50,59.9,PASS,
+34,3.3,RD,P2,LVCMOS33,12,SLOW,FP_VTT_50,57.7,PASS,
+34,3.3,YA,T4,LVCMOS33,12,SLOW,FP_VTT_50,66.6,PASS,
+34,3.3,YB,T3,LVCMOS33,12,SLOW,FP_VTT_50,50.8,PASS,
+34,3.3,YC,U4,LVCMOS33,12,SLOW,FP_VTT_50,63.5,PASS,
+34,3.3,YD,U3,LVCMOS33,12,SLOW,FP_VTT_50,63.2,PASS,
+34,3.3,seg[0],U9,LVCMOS33,12,SLOW,FP_VTT_50,50.5,PASS,
+34,3.3,seg[1],V6,LVCMOS33,12,SLOW,FP_VTT_50,59.3,PASS,
+34,3.3,seg[2],V7,LVCMOS33,12,SLOW,FP_VTT_50,54.0,PASS,
+34,3.3,seg[3],R5,LVCMOS33,12,SLOW,FP_VTT_50,82.5,PASS,
+34,3.3,seg[4],R6,LVCMOS33,12,SLOW,FP_VTT_50,58.9,PASS,
+34,3.3,seg[5],N6,LVCMOS33,12,SLOW,FP_VTT_50,68.8,PASS,
+34,3.3,seg[6],M6,LVCMOS33,12,SLOW,FP_VTT_50,58.5,PASS,
+34,3.3,timer_out[0],U8,LVCMOS33,12,SLOW,FP_VTT_50,64.2,PASS,
+34,3.3,timer_out[1],T8,LVCMOS33,12,SLOW,FP_VTT_50,64.0,PASS,
+34,3.3,timer_out[2],R8,LVCMOS33,12,SLOW,FP_VTT_50,58.6,PASS,
+34,3.3,timer_out[3],T6,LVCMOS33,12,SLOW,FP_VTT_50,49.1,PASS,
+34,3.3,timer_out[4],R7,LVCMOS33,12,SLOW,FP_VTT_50,45.5,PASS,
+34,3.3,timer_out[5],U6,LVCMOS33,12,SLOW,FP_VTT_50,44.5,PASS,
+34,3.3,timer_out[6],U7,LVCMOS33,12,SLOW,FP_VTT_50,41.9,PASS,
+34,3.3,timer_out[7],V9,LVCMOS33,12,SLOW,FP_VTT_50,51.4,PASS,
+
+
+# Reference Links
+# Safe to Ignore SSN Failure on MIG Designs - https://support.xilinx.com/s/article/36141
+# SSN Mitigation Strategy - http://www.xilinx.com/support/documentation/user_guides/ug471_7Series_SelectIO.pdf#search=%22Mitigate%22
+# Off-chip Terminations - http://www.xilinx.com/support/documentation/user_guides/ug471_7Series_SelectIO.pdf#search=%22terminated%22
